@@ -1,0 +1,345 @@
+html, body{
+    background-color: #FFF7F3;
+    font-family: "Jaro", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-optical-sizing: auto;
+    color: #FFF7F3;
+    letter-spacing: 2px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+button{
+    background-color: #FAD0C4;
+    border-radius: 39px;
+    border: 4px solid #FFF7F3;
+    cursor: pointer;
+    color: #FFF7F3;
+    font-family: "Jaro", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title{
+    padding-top: 50px;
+    height: 200px;
+    font-size: 128px;
+    line-height: 109px;
+    text-align: center;
+    color: #FAD0C4;
+    text-shadow:
+        -8px -8px 0 #FFF7F3, 
+        0 -8px 0 #FFF7F3, 
+        8px -8px 0 #FFF7F3, 
+        -8px 0 0 #FFF7F3, 
+        8px 0 0 #FFF7F3, 
+        -8px 8px 0 #FFF7F3,
+        0 8px 0 #FFF7F3, 
+        8px 8px 0 #FFF7F3;   
+}
+
+.start-button{
+    font-size: 32px;
+    width: 150px;
+}
+
+.start-button:hover{
+    opacity: 80%;
+}
+
+.yeehan{
+    position: relative;;
+    width: 100%;
+    height: 300px;
+}
+
+.yeehan img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.endgame-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1220px;
+    height: 840px;
+}
+
+.endgame-img{
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+
+.endgame-img img{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    font-size: 96px;
+}
+
+.score-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    font-size: 48px;
+}
+
+.endgame-button-section{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    
+}
+
+.creations{
+    font-size: 40px;
+    width: 28%;
+    height: 50%;
+
+}
+
+.creations:hover{
+    opacity: 80%;
+
+}
+
+.try-again{
+    font-size: 40px;
+    width: 20%;
+    height: 50%;
+}
+
+.try-again:hover{
+    opacity: 80%;
+
+}
+
+.twitter-handle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 5px;
+    margin-left: 40px;
+    height: 30px;
+}
+
+.at{
+    display: flex;
+    flex-direction: row;
+    color: #FFF7F3;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.at a{
+    font-size: 25px;
+    color: #FFF7F3;
+    text-decoration: none;
+    
+}
+
+.final-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 80px;
+    color: #FAD0C4;
+    text-shadow:
+        -5px -5px 0 #FFF7F3, 
+        0 -5px 0 #FFF7F3, 
+        5px -5px 0 #FFF7F3, 
+        -5px 0 0 #FFF7F3, 
+        5px 0 0 #FFF7F3, 
+        -5px 5px 0 #FFF7F3,
+        0 5px 0 #FFF7F3, 
+        5px 5px 0 #FFF7F3;   
+
+    height:100%;
+}
+
+#creation-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.endgame-button-section{
+    height: 100px;
+}
+
+.back-button {
+    background-color: #FAD0C4;
+    border-radius: 10px;
+    border: 4px solid #FFF7F3;
+    cursor: pointer;
+    width: 80px; 
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button:hover {
+    opacity: 80%;
+}
+
+.final-prod{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.final-chocolate-box {
+    position: relative;
+    width: 500px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.final-chocolate-box-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    height: 420px;
+    z-index: 1;
+}
+
+.final-chocolate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 78px;
+    cursor: grab;
+    margin: 10px;
+}
+
+.final-first-row, .final-second-row, .final-third-row {
+    position: relative;
+    z-index: 2; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.final-first-row, .final-second-row{
+    margin-bottom: 6px;
+}
+
+
+.final-container{
+    display: flex;
+    width: 119px;
+    height: 121px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.final-loveletter-game-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 100%;
+}
+
+.final-loveletter-box-image{
+    position: absolute;
+    width: 637px;
+    height: 385px;
+}
+
+.final-loveletter-text {
+    position: relative;
+    font-size: 19.5px;
+    display: block;
+    width: 550px;
+    height: 328px;
+    word-wrap: break-word;
+}
+
+.final-loveletter-container{
+    vertical-align: top;
+    display: flex; 
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 5px;
+}
+
+#final-first-container{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#final-signature-container{
+    margin-top: 30px;
+    display: flex; 
+}
+
+.final-first-line{
+    display: inline;
+    width: 30px;
+}
+
+.final-dropdown button{
+    display: inline;
+    background-color: #FAD0C4;
+    border-radius: 10px;
+    border: 3px solid #FFF7F3;
+    color: #FFF7F3;
+    font-family: "Jaro", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19.5px;
+    letter-spacing: 3px;
+    cursor: default;
+}
