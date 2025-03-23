@@ -66,7 +66,9 @@ function resetButton(){
     let containers = document.getElementsByClassName("container");
 
     document.getElementById("reset-button")?.addEventListener("click", function () {   
-        window.location.href = "chocolate-game.html";
+        for(let i = 0; i < containers.length; i++){
+            containers[i].innerHTML = "";
+        }
     });
 }
 
